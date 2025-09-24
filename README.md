@@ -20,7 +20,7 @@ This repository contains a **Playwright framework in JavaScript** (with POM stru
 ## ⚙️ Setup
 
 1. Clone the repo  
-   git clone https://github.com/Mufrad6502/playwright-framework.git  
+   git clone https://github.com/Mufrad6502/NextJS_e-commerce.git  
    cd playwright-framework  
 
 2. Install dependencies  
