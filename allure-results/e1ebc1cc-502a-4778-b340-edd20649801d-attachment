@@ -1,0 +1,150 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "Acme Store logo Acme Store" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "Acme Store logo" [ref=e7] [cursor=pointer]
+          - generic [ref=e10] [cursor=pointer]: Acme Store
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "All" [ref=e13] [cursor=pointer]:
+              - /url: /search
+          - listitem [ref=e14]:
+            - link "Shirts" [ref=e15] [cursor=pointer]:
+              - /url: /search/shirts
+          - listitem [ref=e16]:
+            - link "Stickers" [ref=e17] [cursor=pointer]:
+              - /url: /search/stickers
+      - generic [ref=e19]:
+        - textbox "Search for products..." [ref=e20]: Acme Circles
+        - img [ref=e22]
+      - button "Open cart" [ref=e25] [cursor=pointer]:
+        - img [ref=e27] [cursor=pointer]
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - navigation [ref=e32]:
+        - heading "Collections" [level=3] [ref=e33]
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - paragraph [ref=e36]: All
+          - listitem [ref=e37]:
+            - link "Bags" [ref=e38] [cursor=pointer]:
+              - /url: /search/bags
+          - listitem [ref=e39]:
+            - link "Drinkware" [ref=e40] [cursor=pointer]:
+              - /url: /search/drinkware
+          - listitem [ref=e41]:
+            - link "Electronics" [ref=e42] [cursor=pointer]:
+              - /url: /search/electronics
+          - listitem [ref=e43]:
+            - link "Footware" [ref=e44] [cursor=pointer]:
+              - /url: /search/footware
+          - listitem [ref=e45]:
+            - link "Headwear" [ref=e46] [cursor=pointer]:
+              - /url: /search/headwear
+          - listitem [ref=e47]:
+            - link "Hoodies" [ref=e48] [cursor=pointer]:
+              - /url: /search/hoodies
+          - listitem [ref=e49]:
+            - link "Jackets" [ref=e50] [cursor=pointer]:
+              - /url: /search/jackets
+          - listitem [ref=e51]:
+            - link "Kids" [ref=e52] [cursor=pointer]:
+              - /url: /search/kids
+          - listitem [ref=e53]:
+            - link "Pets" [ref=e54] [cursor=pointer]:
+              - /url: /search/pets
+          - listitem [ref=e55]:
+            - link "Shirts" [ref=e56] [cursor=pointer]:
+              - /url: /search/shirts
+          - listitem [ref=e57]:
+            - link "Stickers" [ref=e58] [cursor=pointer]:
+              - /url: /search/stickers
+      - generic [ref=e59]:
+        - paragraph [ref=e60]:
+          - text: Showing 1 result for
+          - generic [ref=e61]: "\"Acme Circles\""
+        - list [ref=e62]:
+          - listitem [ref=e63]:
+            - link "Acme Circles T-Shirt Acme Circles T-Shirt $20.00" [ref=e64] [cursor=pointer]:
+              - /url: /product/acme-geometric-circles-t-shirt
+              - generic [ref=e65] [cursor=pointer]:
+                - img "Acme Circles T-Shirt" [ref=e66] [cursor=pointer]
+                - generic [ref=e68] [cursor=pointer]:
+                  - heading "Acme Circles T-Shirt" [level=3] [ref=e69] [cursor=pointer]
+                  - paragraph [ref=e70] [cursor=pointer]: $20.00
+      - navigation [ref=e72]:
+        - heading "Sort by" [level=3] [ref=e73]
+        - list [ref=e74]:
+          - listitem [ref=e75]:
+            - paragraph [ref=e76]: Relevance
+          - listitem [ref=e77]:
+            - link "Trending" [ref=e78] [cursor=pointer]:
+              - /url: /search?q=Acme+Circles&sort=trending-desc
+          - listitem [ref=e79]:
+            - link "Latest arrivals" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Acme+Circles&sort=latest-desc
+          - listitem [ref=e81]:
+            - 'link "Price: Low to high" [ref=e82] [cursor=pointer]':
+              - /url: /search?q=Acme+Circles&sort=price-asc
+          - listitem [ref=e83]:
+            - 'link "Price: High to low" [ref=e84] [cursor=pointer]':
+              - /url: /search?q=Acme+Circles&sort=price-desc
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - link "Acme Store logo Acme Store" [ref=e88] [cursor=pointer]:
+          - /url: /
+          - img "Acme Store logo" [ref=e90] [cursor=pointer]
+          - generic [ref=e93] [cursor=pointer]: Acme Store
+        - navigation [ref=e94]:
+          - list [ref=e95]:
+            - listitem [ref=e96]:
+              - link "Home" [ref=e97] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e98]:
+              - link "About" [ref=e99] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e100]:
+              - link "Terms & Conditions" [ref=e101] [cursor=pointer]:
+                - /url: /terms-conditions
+            - listitem [ref=e102]:
+              - link "Shipping & Return Policy" [ref=e103] [cursor=pointer]:
+                - /url: /shipping-return-policy
+            - listitem [ref=e104]:
+              - link "Privacy Policy" [ref=e105] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e106]:
+              - link "FAQ" [ref=e107] [cursor=pointer]:
+                - /url: /frequently-asked-questions
+        - link "Deploy on Vercel" [ref=e109] [cursor=pointer]:
+          - /url: https://vercel.com/templates/next.js/nextjs-commerce
+          - generic [ref=e110] [cursor=pointer]: ▲
+          - separator [ref=e111] [cursor=pointer]
+          - generic [ref=e112] [cursor=pointer]: Deploy
+      - generic [ref=e114]:
+        - paragraph [ref=e115]: © 2023-2025 ACME, Inc. All rights reserved.
+        - separator [ref=e116]
+        - paragraph [ref=e117]:
+          - link "View the source" [ref=e118] [cursor=pointer]:
+            - /url: https://github.com/vercel/commerce
+        - paragraph [ref=e119]:
+          - link "Created by ▲ Vercel" [ref=e120] [cursor=pointer]:
+            - /url: https://vercel.com
+    - region "Notifications alt+T":
+      - list:
+        - listitem [ref=e121]:
+          - button "Close toast" [ref=e122] [cursor=pointer]:
+            - img [ref=e123] [cursor=pointer]
+          - generic [ref=e126]:
+            - generic [ref=e127]: 🛍️ Welcome to Next.js Commerce!
+            - generic [ref=e128]:
+              - text: This is a high-performance, SSR storefront powered by Shopify, Next.js, and Vercel.
+              - link "Deploy your own" [ref=e129] [cursor=pointer]:
+                - /url: https://vercel.com/templates/next.js/nextjs-commerce
+              - text: .
+  - alert [ref=e130]: Search | Acme Store
+```

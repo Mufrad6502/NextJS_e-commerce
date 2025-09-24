@@ -1,0 +1,230 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - link "Acme Store logo Acme Store" [ref=e5] [cursor=pointer]:
+          - /url: /
+          - img "Acme Store logo" [ref=e7] [cursor=pointer]
+          - generic [ref=e10] [cursor=pointer]: Acme Store
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "All" [ref=e13] [cursor=pointer]:
+              - /url: /search
+          - listitem [ref=e14]:
+            - link "Shirts" [ref=e15] [cursor=pointer]:
+              - /url: /search/shirts
+          - listitem [ref=e16]:
+            - link "Stickers" [ref=e17] [cursor=pointer]:
+              - /url: /search/stickers
+      - generic [ref=e19]:
+        - textbox "Search for products..." [ref=e20]
+        - img [ref=e22]
+      - button "Open cart" [ref=e25] [cursor=pointer]:
+        - img [ref=e27] [cursor=pointer]
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - link "Acme Circles T-Shirt Acme Circles T-Shirt $20.00USD" [ref=e32] [cursor=pointer]:
+        - /url: /product/acme-geometric-circles-t-shirt
+        - generic [ref=e33] [cursor=pointer]:
+          - img "Acme Circles T-Shirt" [ref=e34] [cursor=pointer]
+          - generic [ref=e36] [cursor=pointer]:
+            - heading "Acme Circles T-Shirt" [level=3] [ref=e37] [cursor=pointer]
+            - paragraph [ref=e38] [cursor=pointer]:
+              - text: $20.00
+              - generic [ref=e39] [cursor=pointer]: USD
+      - link "Acme Drawstring Bag Acme Drawstring Bag $12.00USD" [ref=e41] [cursor=pointer]:
+        - /url: /product/acme-drawstring-bag
+        - generic [ref=e42] [cursor=pointer]:
+          - img "Acme Drawstring Bag" [ref=e43] [cursor=pointer]
+          - generic [ref=e45] [cursor=pointer]:
+            - heading "Acme Drawstring Bag" [level=3] [ref=e46] [cursor=pointer]
+            - paragraph [ref=e47] [cursor=pointer]:
+              - text: $12.00
+              - generic [ref=e48] [cursor=pointer]: USD
+      - link "Acme Cup Acme Cup $15.00USD" [ref=e50] [cursor=pointer]:
+        - /url: /product/acme-cup
+        - generic [ref=e51] [cursor=pointer]:
+          - img "Acme Cup" [ref=e52] [cursor=pointer]
+          - generic [ref=e54] [cursor=pointer]:
+            - heading "Acme Cup" [level=3] [ref=e55] [cursor=pointer]
+            - paragraph [ref=e56] [cursor=pointer]:
+              - text: $15.00
+              - generic [ref=e57] [cursor=pointer]: USD
+    - list [ref=e59]:
+      - listitem [ref=e60]:
+        - link "Acme Mug Acme Mug $15.00USD" [ref=e61] [cursor=pointer]:
+          - /url: /product/acme-mug
+          - generic [ref=e62] [cursor=pointer]:
+            - img "Acme Mug" [ref=e63] [cursor=pointer]
+            - generic [ref=e65] [cursor=pointer]:
+              - heading "Acme Mug" [level=3] [ref=e66] [cursor=pointer]
+              - paragraph [ref=e67] [cursor=pointer]:
+                - text: $15.00
+                - generic [ref=e68] [cursor=pointer]: USD
+      - listitem [ref=e69]:
+        - link "Acme Hoodie Acme Hoodie $50.00USD" [ref=e70] [cursor=pointer]:
+          - /url: /product/acme-hoodie
+          - generic [ref=e71] [cursor=pointer]:
+            - img "Acme Hoodie" [ref=e72] [cursor=pointer]
+            - generic [ref=e74] [cursor=pointer]:
+              - heading "Acme Hoodie" [level=3] [ref=e75] [cursor=pointer]
+              - paragraph [ref=e76] [cursor=pointer]:
+                - text: $50.00
+                - generic [ref=e77] [cursor=pointer]: USD
+      - listitem [ref=e78]:
+        - link "Acme Baby Onesie Acme Baby Onesie $10.00USD" [ref=e79] [cursor=pointer]:
+          - /url: /product/acme-baby-onesie
+          - generic [ref=e80] [cursor=pointer]:
+            - img "Acme Baby Onesie" [ref=e81] [cursor=pointer]
+            - generic [ref=e83] [cursor=pointer]:
+              - heading "Acme Baby Onesie" [level=3] [ref=e84] [cursor=pointer]
+              - paragraph [ref=e85] [cursor=pointer]:
+                - text: $10.00
+                - generic [ref=e86] [cursor=pointer]: USD
+      - listitem [ref=e87]:
+        - link "Acme Baby Cap Acme Baby Cap $10.00USD" [ref=e88] [cursor=pointer]:
+          - /url: /product/acme-baby-cap
+          - generic [ref=e89] [cursor=pointer]:
+            - img "Acme Baby Cap" [ref=e90] [cursor=pointer]
+            - generic [ref=e92] [cursor=pointer]:
+              - heading "Acme Baby Cap" [level=3] [ref=e93] [cursor=pointer]
+              - paragraph [ref=e94] [cursor=pointer]:
+                - text: $10.00
+                - generic [ref=e95] [cursor=pointer]: USD
+      - listitem [ref=e96]:
+        - link "Acme Mug Acme Mug $15.00USD" [ref=e97] [cursor=pointer]:
+          - /url: /product/acme-mug
+          - generic [ref=e98] [cursor=pointer]:
+            - img "Acme Mug" [ref=e99] [cursor=pointer]
+            - generic [ref=e101] [cursor=pointer]:
+              - heading "Acme Mug" [level=3] [ref=e102] [cursor=pointer]
+              - paragraph [ref=e103] [cursor=pointer]:
+                - text: $15.00
+                - generic [ref=e104] [cursor=pointer]: USD
+      - listitem [ref=e105]:
+        - link "Acme Hoodie Acme Hoodie $50.00USD" [ref=e106] [cursor=pointer]:
+          - /url: /product/acme-hoodie
+          - generic [ref=e107] [cursor=pointer]:
+            - img "Acme Hoodie" [ref=e108] [cursor=pointer]
+            - generic [ref=e110] [cursor=pointer]:
+              - heading "Acme Hoodie" [level=3] [ref=e111] [cursor=pointer]
+              - paragraph [ref=e112] [cursor=pointer]:
+                - text: $50.00
+                - generic [ref=e113] [cursor=pointer]: USD
+      - listitem [ref=e114]:
+        - link "Acme Baby Onesie Acme Baby Onesie $10.00USD" [ref=e115] [cursor=pointer]:
+          - /url: /product/acme-baby-onesie
+          - generic [ref=e116] [cursor=pointer]:
+            - img "Acme Baby Onesie" [ref=e117] [cursor=pointer]
+            - generic [ref=e119] [cursor=pointer]:
+              - heading "Acme Baby Onesie" [level=3] [ref=e120] [cursor=pointer]
+              - paragraph [ref=e121] [cursor=pointer]:
+                - text: $10.00
+                - generic [ref=e122] [cursor=pointer]: USD
+      - listitem [ref=e123]:
+        - link "Acme Baby Cap Acme Baby Cap $10.00USD" [ref=e124] [cursor=pointer]:
+          - /url: /product/acme-baby-cap
+          - generic [ref=e125] [cursor=pointer]:
+            - img "Acme Baby Cap" [ref=e126] [cursor=pointer]
+            - generic [ref=e128] [cursor=pointer]:
+              - heading "Acme Baby Cap" [level=3] [ref=e129] [cursor=pointer]
+              - paragraph [ref=e130] [cursor=pointer]:
+                - text: $10.00
+                - generic [ref=e131] [cursor=pointer]: USD
+      - listitem [ref=e132]:
+        - link "Acme Mug Acme Mug $15.00USD" [ref=e133] [cursor=pointer]:
+          - /url: /product/acme-mug
+          - generic [ref=e134] [cursor=pointer]:
+            - img "Acme Mug" [ref=e135] [cursor=pointer]
+            - generic [ref=e137] [cursor=pointer]:
+              - heading "Acme Mug" [level=3] [ref=e138] [cursor=pointer]
+              - paragraph [ref=e139] [cursor=pointer]:
+                - text: $15.00
+                - generic [ref=e140] [cursor=pointer]: USD
+      - listitem [ref=e141]:
+        - link "Acme Hoodie Acme Hoodie $50.00USD" [ref=e142] [cursor=pointer]:
+          - /url: /product/acme-hoodie
+          - generic [ref=e143] [cursor=pointer]:
+            - img "Acme Hoodie" [ref=e144] [cursor=pointer]
+            - generic [ref=e146] [cursor=pointer]:
+              - heading "Acme Hoodie" [level=3] [ref=e147] [cursor=pointer]
+              - paragraph [ref=e148] [cursor=pointer]:
+                - text: $50.00
+                - generic [ref=e149] [cursor=pointer]: USD
+      - listitem [ref=e150]:
+        - link "Acme Baby Onesie Acme Baby Onesie $10.00USD" [ref=e151] [cursor=pointer]:
+          - /url: /product/acme-baby-onesie
+          - generic [ref=e152] [cursor=pointer]:
+            - img "Acme Baby Onesie" [ref=e153] [cursor=pointer]
+            - generic [ref=e155] [cursor=pointer]:
+              - heading "Acme Baby Onesie" [level=3] [ref=e156] [cursor=pointer]
+              - paragraph [ref=e157] [cursor=pointer]:
+                - text: $10.00
+                - generic [ref=e158] [cursor=pointer]: USD
+      - listitem [ref=e159]:
+        - link "Acme Baby Cap Acme Baby Cap $10.00USD" [ref=e160] [cursor=pointer]:
+          - /url: /product/acme-baby-cap
+          - generic [ref=e161] [cursor=pointer]:
+            - img "Acme Baby Cap" [ref=e162] [cursor=pointer]
+            - generic [ref=e164] [cursor=pointer]:
+              - heading "Acme Baby Cap" [level=3] [ref=e165] [cursor=pointer]
+              - paragraph [ref=e166] [cursor=pointer]:
+                - text: $10.00
+                - generic [ref=e167] [cursor=pointer]: USD
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - link "Acme Store logo Acme Store" [ref=e171] [cursor=pointer]:
+          - /url: /
+          - img "Acme Store logo" [ref=e173] [cursor=pointer]
+          - generic [ref=e176] [cursor=pointer]: Acme Store
+        - navigation [ref=e177]:
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - link "Home" [ref=e180] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e181]:
+              - link "About" [ref=e182] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e183]:
+              - link "Terms & Conditions" [ref=e184] [cursor=pointer]:
+                - /url: /terms-conditions
+            - listitem [ref=e185]:
+              - link "Shipping & Return Policy" [ref=e186] [cursor=pointer]:
+                - /url: /shipping-return-policy
+            - listitem [ref=e187]:
+              - link "Privacy Policy" [ref=e188] [cursor=pointer]:
+                - /url: /privacy-policy
+            - listitem [ref=e189]:
+              - link "FAQ" [ref=e190] [cursor=pointer]:
+                - /url: /frequently-asked-questions
+        - link "Deploy on Vercel" [ref=e192] [cursor=pointer]:
+          - /url: https://vercel.com/templates/next.js/nextjs-commerce
+          - generic [ref=e193] [cursor=pointer]: ▲
+          - separator [ref=e194] [cursor=pointer]
+          - generic [ref=e195] [cursor=pointer]: Deploy
+      - generic [ref=e197]:
+        - paragraph [ref=e198]: © 2023-2025 ACME, Inc. All rights reserved.
+        - separator [ref=e199]
+        - paragraph [ref=e200]:
+          - link "View the source" [ref=e201] [cursor=pointer]:
+            - /url: https://github.com/vercel/commerce
+        - paragraph [ref=e202]:
+          - link "Created by ▲ Vercel" [ref=e203] [cursor=pointer]:
+            - /url: https://vercel.com
+    - region "Notifications alt+T":
+      - list:
+        - listitem [ref=e204]:
+          - button "Close toast" [ref=e205] [cursor=pointer]:
+            - img [ref=e206] [cursor=pointer]
+          - generic [ref=e209]:
+            - generic [ref=e210]: 🛍️ Welcome to Next.js Commerce!
+            - generic [ref=e211]:
+              - text: This is a high-performance, SSR storefront powered by Shopify, Next.js, and Vercel.
+              - link "Deploy your own" [ref=e212] [cursor=pointer]:
+                - /url: https://vercel.com/templates/next.js/nextjs-commerce
+              - text: .
+  - alert [ref=e213]
+```
